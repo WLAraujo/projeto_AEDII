@@ -86,5 +86,9 @@ int main(int argc, char** argv){
     add_chave(2, 6, rede);
     add_chave(2, 7, rede);
     verifica_estrutura(2, rede);
+    //Teste 4 - Adicionando ainda mais um banco de dados à rede e verificando sua estrutura
+    rede = add_no(5, rede);
+    add_chave(5, 10, rede);
+    verifica_estrutura(5, rede);
     return 0;
 }
